@@ -1,4 +1,4 @@
-# Ramadan 2026 Beverage Business — Financial Tracking & KPI Dashboard (Excel)
+# Ramadan 2026 Beverage Business - Financial Tracking & KPI Dashboard (Excel)
 
 > A real-world Excel system built to track, analyze, and optimize a live beverage business operated during Ramadan 1447H (February–March 2026).
 
@@ -6,9 +6,9 @@
 
 ## Overview
 
-This project documents the complete financial tracking system I built for my own side hustle — a beverage stall I operated during Ramadan 2026 in Surabaya, Indonesia. Over three active selling sessions, I sold handcrafted drinks including temulawak, grass jelly, and banana-based beverages at a fixed price of Rp 4,000 per cup, fulfilling hundreds of orders per session.
+This project documents the complete financial tracking system I built for my own side hustle - a beverage stall I operated during Ramadan 2026 in Surabaya, Indonesia. Over three active selling sessions, I sold handcrafted drinks including temulawak, grass jelly, and banana-based beverages at a fixed price of Rp 4,000 per cup, fulfilling hundreds of orders per session.
 
-Rather than tracking everything manually on paper or in a basic notes app, I designed a structured Excel workbook from scratch to manage the full financial lifecycle of the business — from raw ingredient costs to net profit per session. The system evolved into a professional-grade analytical tool complete with a KPI dashboard, automated calculations, and actionable business insights.
+Rather than tracking everything manually on paper or in a basic notes app, I designed a structured Excel workbook from scratch to manage the full financial lifecycle of the business - from raw ingredient costs to net profit per session. The system evolved into a professional-grade analytical tool complete with a KPI dashboard, automated calculations, and actionable business insights.
 
 This is not a sample dataset or practice exercise. Every number in this workbook reflects a real transaction.
 
@@ -18,11 +18,11 @@ This is not a sample dataset or practice exercise. Every number in this workbook
 
 Running a small food and beverage operation during Ramadan comes with several operational pressures:
 
-- **Short selling windows** — each session lasts only a few hours, leaving no time for manual calculations mid-operation
-- **Variable costs** — ingredient prices fluctuate across sessions (e.g., sugar prices, ice block sourcing), making it hard to track true margins without a system
-- **Multiple cost categories** — raw materials, operational supplies, and labor all need to be tracked separately to understand where money is actually going
-- **No historical baseline** — without structured records, it is impossible to compare sessions, spot cost patterns, or make smarter decisions for the next outing
-- **Profit sharing** — with a business partner involved, accurate and transparent financial records are essential
+- **Short selling windows** - each session lasts only a few hours, leaving no time for manual calculations mid-operation
+- **Variable costs** - ingredient prices fluctuate across sessions (e.g., sugar prices, ice block sourcing), making it hard to track true margins without a system
+- **Multiple cost categories** - raw materials, operational supplies, and labor all need to be tracked separately to understand where money is actually going
+- **No historical baseline** - without structured records, it is impossible to compare sessions, spot cost patterns, or make smarter decisions for the next outing
+- **Profit sharing** - with a business partner involved, accurate and transparent financial records are essential
 
 A lightweight, auditable, formula-driven Excel system was the right solution: fast to build, easy to update in the field, and powerful enough to surface real insights.
 
@@ -36,7 +36,7 @@ I built a six-sheet Excel workbook that takes raw transaction data as input and 
 Raw Data  →  Summary  →  Product Analysis  →  Dashboard
 ```
 
-All calculations are formula-driven — no values are manually hardcoded into summary cells. This means the entire workbook updates automatically whenever a new session's data is entered into the Raw Data sheet. The dashboard gives an at-a-glance view of the business health across all sessions, while the underlying sheets support deeper cost and product-level analysis.
+All calculations are formula-driven - no values are manually hardcoded into summary cells. This means the entire workbook updates automatically whenever a new session's data is entered into the Raw Data sheet. The dashboard gives an at-a-glance view of the business health across all sessions, while the underlying sheets support deeper cost and product-level analysis.
 
 ---
 
@@ -49,7 +49,7 @@ All calculations are formula-driven — no values are manually hardcoded into su
 - AutoFilter enabled for date, type, and category slicing
 
 ### Automated Financial Calculations
-- Session-level revenue, cost, and profit calculated using `SUMIFS` with date and type filters — no manual aggregation needed
+- Session-level revenue, cost, and profit calculated using `SUMIFS` with date and type filters - no manual aggregation needed
 - Profit margin computed dynamically per session and in aggregate
 - Cumulative profit tracked across sessions to show business trajectory
 - Cost breakdown by category (Raw Materials / Operational / Labor) expressed both in absolute IDR and as a percentage of revenue
@@ -65,7 +65,7 @@ All calculations are formula-driven — no values are manually hardcoded into su
 - Supporting metrics: highest-profit session, lowest-margin session, average units per session
 - Three embedded charts: clustered bar chart (revenue vs. cost vs. profit by session), pie chart (cost breakdown by category), and line chart (profit margin trend across sessions)
 - Key Insights section with six data-driven business recommendations derived directly from the numbers
-- Fully formula-driven — no values are hardcoded into the dashboard
+- Fully formula-driven - no values are hardcoded into the dashboard
 
 ### Professional Formatting
 - Corporate-standard design: neutral navy/blue/white color palette, no decorative elements
