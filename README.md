@@ -184,8 +184,8 @@ Building this system for a live business — under real time pressure, with real
 **[Raihan Ahmad Abiyyu]**
 Data Analyst | Excel & Business Intelligence | Surabaya, Indonesia
 
-- GitHub: [github.com/yourusername](https://github.com/courseauxetoiles)
-- LinkedIn: [linkedin.com/in/yourprofile](https://linkedin.com/in/raihanabiyyu)
+- GitHub: [github.com/courseauxetoiles](https://github.com/courseauxetoiles)
+- LinkedIn: [linkedin.com/in/raihanabiyyu](https://linkedin.com/in/raihanabiyyu)
 
 ---
 
